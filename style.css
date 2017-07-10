@@ -1,9 +1,44 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 body{
-	background-color: grey;
+	background-color: #fff;
+}
+
+p, .navbar-default .navbar-nav>li>a {
+  color: #848484;
+}
+
+.carousel-caption>p {
+  color: #fff;
+}
+
+.btn-login {
+  margin-left: 44px;
+  background-color: #bcda5c;
+  border: none;
+  border-radius: 16px;
+  color: #fff;
 }
 
 .navbar-wrapper nav {
+  font-family: "Open Sans Semibold";
+  border: none;
 	margin-bottom: 0;
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+.navbar-brand {
+  padding: 0 10px 10px 10px;
+}
+
+.navbar-brand>img {
+  margin: 0 124px;
+  /*padding: 0;*/
+  height: 100%;
+  width: auto;
 }
 
 .slide-overlay:after {
@@ -14,12 +49,7 @@ body{
     background:rgba(66,89,72,0.29);
     opacity: 1;
 }
-/* Carousel base class */
 
-
-.carousel {
-  height: 570px;
-}
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
@@ -27,14 +57,15 @@ body{
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 570px;
   background-color: #777;
 }
-.carousel-inner > .item > img {
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: auto !important;
+
+.sec-5 {
+  height: 470;
+}
+
+.footer img {
+  margin: 45px 140px 41px auto; 
+  margin-right: 140px;
+  margin-left: auto;
 }
