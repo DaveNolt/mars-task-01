@@ -1,0 +1,13 @@
+.slide-overlay:after {
+    content: '\A';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background:rgba(66,89,72,0.29);
+    opacity: 1;
+}
+
+.slide-frame {
+	height: 570px !important;
+	overflow: hidden;
+}
