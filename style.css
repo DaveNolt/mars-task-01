@@ -1,3 +1,11 @@
+body{
+	background-color: grey;
+}
+
+.navbar-wrapper nav {
+	margin-bottom: 0;
+}
+
 .slide-overlay:after {
     content: '\A';
     position: absolute;
@@ -6,8 +14,27 @@
     background:rgba(66,89,72,0.29);
     opacity: 1;
 }
+/* Carousel base class */
 
-.slide-frame {
-	height: 570px !important;
-	overflow: hidden;
+
+.carousel {
+  height: 570px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 570px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: auto !important;
 }
