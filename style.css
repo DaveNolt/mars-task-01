@@ -22,6 +22,15 @@ p, .navbar-default .navbar-nav>li>a {
   color: #fff;
 }
 
+.btn-primary {
+	border: none;
+	background-color: #97bf4e;
+}
+
+.btn-primary:hover {
+	background-color: #658034;
+}
+
 .btn:focus, .btn:active:focus {
 	outline: none;
 }
@@ -56,7 +65,20 @@ p, .navbar-default .navbar-nav>li>a {
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  z-index: 10;
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+    z-index: 10;
+}
+
+.carousel-caption h1 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+.carousel-caption h1 + p {
+	font-size: 1.7em;
+	margin-bottom: 60px;
 }
 
 /* Declare heights because of positioning of img element */
