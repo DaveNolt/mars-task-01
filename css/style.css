@@ -13,18 +13,26 @@ p, .navbar-default .navbar-nav>li>a {
   color: #848484;
 }
 
-#sec-1 p {
+.modal .btn-default {
+	color: #333;
+}
+
+textarea {
+	resize: none;
+}
+
+.sec-1 p {
 	font-size: 1.286em;
 	line-height: 2em;
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
 
-#sec-4 .glyphicon-green {
+.sec-4 .glyphicon-green {
 	color: #bfdb63;
 }
 
-#sec-4 .thumbnail .caption hr + p {
+.sec-4 .thumbnail .caption hr + p {
 	text-align: right;
 }
 
@@ -72,7 +80,7 @@ h2 {
 	margin-bottom: 92px;
 }
 
-#sec-1 {
+.sec-1 {
 	margin-bottom: 80px;
 }
 
@@ -112,7 +120,7 @@ span.glyphicon.glyphicon-play {
 	background-color: #658034;
 }*/
 
-#sec-3 > .container > .row .row {
+.sec-3 > .container > .row .row {
 	padding-bottom: 46px;
 	padding-top: 46px;
 }
@@ -124,16 +132,16 @@ span.glyphicon.glyphicon-play {
 
 
 
-#sec-3 .row .row > div:first-child {
+.sec-3 .row .row > div:first-child {
 	margin-right: 15px;
 }
 
 
-#sec-4 h4 {
+.sec-4 h4 {
 	font-weight: bolder;
 }
 
-#sec-4 .btn {
+.sec-4 .btn {
 	margin-top: 40px;
 	color: #838383;
 	border-color: #838383;
@@ -148,7 +156,7 @@ span.glyphicon.glyphicon-play {
 	width: 300px;
 }
 
-#sec-4 > .container > .row:first-child {
+.sec-4 > .container > .row:first-child {
 	margin-top: 46px;
 	margin-bottom: 46px;
 }
@@ -258,7 +266,7 @@ ul[role="tablist"] > li.active{
 	padding: 0;
 }
 
-#sec-3 .row .row img {
+.sec-3 .row .row img {
 	margin-top: 30px;
 }
 
@@ -319,11 +327,11 @@ ul[role="tablist"] > li.active{
   background-color: #777;
 }
 
-#sec-5 {
+.sec-5 {
   height: 470;
 }
 
-#sec-5 h2 {
+.sec-5 h2 {
 	text-transform: capitalize;
 	color: #9bbb4d;
 }
@@ -375,13 +383,13 @@ ul[role="tablist"] > li.active{
 	font-weight: bolder;
 }
 
-#sec-5 .container {
-	background: url("sec-5-bg.jpg") no-repeat;
+.sec-5 .container {
+	background: url("../images/sec-5-bg.jpg") no-repeat;
 	background-clip: content-box;
 	background-position: bottom;
 }
 
-#sec-5 .row {
+.sec-5 .row {
 	padding-top: 46px;
 	padding-bottom: 46px;
 }
@@ -422,7 +430,7 @@ ul[role="tablist"] > li.active{
 	z-index: 2;
 }
 
-#sec-4 .thumbnail-frame > a {
+.sec-4 .thumbnail-frame > a {
 	position: absolute;
 	bottom: 15px;
 	right: 15px;
@@ -433,7 +441,7 @@ ul[role="tablist"] > li.active{
 	background: #26a6d1;
 }
 
-#sec-4 .thumbnail-pic-overlay:hover > a {
+.sec-4 .thumbnail-pic-overlay:hover > a {
 	display: block;
 }
 
